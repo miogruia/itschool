@@ -1,0 +1,15 @@
+.welcome-contact{
+  display:flex;
+  height: 350px;
+  width: auto;
+  background-color: var(--bg-primary);
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-separator {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

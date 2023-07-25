@@ -1,0 +1,120 @@
+.welcome{
+  display: flex;
+  min-height: 800px;
+  width: 100%;
+  justify-content: flex-start;
+  background-color: var(--bg-primary)  
+}
+
+.welcome .container{
+  /* display: center; */
+  flex-direction: column;
+  justify-content: center;
+  /* border: 5px solid white; */
+
+}
+
+.welcome img {
+  width: auto;
+  height: 24px;
+  margin: 15px;
+}
+
+.welcome-text{
+  font-size: 70px;
+}
+
+.btn-primary{
+  background-color: var(--button-color);
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+
+hr {
+  
+  border-top: 5px solid var(--button-color);
+  border-radius: 5px;
+  
+}
+.card{
+  border: 1px solid var(--bg-secondary);
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+.intrebari{
+  background-color: var(--bg-secondary);
+  padding: 35px;
+}
+
+
+.image img{
+  
+  /* border: 2px solid red; */
+  /* border-radius: 5px; */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+
+}
+
+.button-details-courses{
+  width: 100px;
+  height: 35px;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.reclama{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: var(--spacing-xl);
+
+}
+
+.reclama img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.reclama-flex{
+  display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+  .reclama-flex{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/* Pentru nav responsive */
+@media only screen and (max-width: 600px) {
+  .navbar-nav{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .hamburger{
+    display: none;
+  }
+
+}
+
+

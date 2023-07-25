@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Clonă IT School</title>
+    <meta name="description" content="O replică a site-ului itschool.ro" />
+
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+<body>
+
+
+  <nav class="navbar navbar-expand-sm sticky-top">
+    <div class="container">
+      <div class="text-white">
+        <a href="../index.html" class="logo-link">
+          <img src="../img/itschool-logo.png" alt="itschool logo" />
+        </a>
+      </div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="courses.html">Cursuri Online</a>
+          </li>
+          <li class="p-2 ml-2 mr-4 about-us position-relative">
+            <a class="text-white" href="about.html">
+              Despre Noi
+              <span class="material-icons arrow-down-icon">
+                arrow_drop_down
+              </span>
+            </a>
+            <div class="submenu">
+              <a class="text-white" href="../index.html">IT School</a>
+              <a class="text-white" href="about.html">Despre Noi</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+
+
+      <main>
+        <div class="welcome-contact">
+          <h1 class="text-center text-light 56px m-0 p-0">
+            <b>Contact IT School</b>
+          </h1>
+        </div>
+
+        <div class="container">
+
+          <div class="justify-content-center mt-5 mb-5">
+            <h2 class="text-center  ">
+            <b>Informații generale</b>
+            </h2>
+            <div>
+              <p class="mt-4">
+                Nu ai găsit ce căutai sau te putem ajuta și cu alte informații referitoare la programele de pregătire IT School? Suntem aici să te ajutăm. Îți reamintim că pe pagina FAQ regăsești o listă cu cele mai frecvente întrebări.
+              </p>
+              <p class="mt-4">
+                Ne poți găsi la:
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-around mb-5">
+            <div class="col-sm-6 d-flex flex-column">
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                  <span class="material-icons"> phone_iphone </span>
+                  <span>
+                    Mobil:
+                  </span>
+                </div>
+                <a href="tel:0040737880420" class="text-secondary">+40 737 880 420</a>
+              </div>
+              <span class="contact-separator"></span>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                  <span class="material-icons"> email </span>
+                  <span>
+                    E-mail:
+                  </span>
+                </div>
+                <a href="mailto:office@itschool.ro" class="text-secondary">office@itschool.ro</a>
+              </div>
+              <span class="contact-separator"></span>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                  <span class="material-icons"> facebook </span>
+                  <span>
+                    Facebook:
+                  </span>
+                </div>
+                <a href="https://www.facebook.com/itschool.ro/" target="_blank" class="text-secondary">/ITSchool</a>
+              </div>
+              <span class="contact-separator"></span>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                  <span class="material-icons"> schedule </span>
+                  <span>
+                    Program:
+                  </span>
+                </div>
+                <p class="text-secondary">Luni - Vineri, de la 10:00 - 18:00</p>
+              </div>
+              <span class="contact-separator"></span>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                  <span class="material-icons"> location_on </span>
+                  <span>
+                    Sediu central:
+                  </span>
+                </div>
+                <p class="text-secondary">Timisoara</p>
+              </div>
+              <span class="contact-separator"></span>
+
+              
+            </div>
+
+            <div class="col-sm-6 d-flex flex-column">
+              <form>
+                <div class="form-group">
+                  <label for="name">Nume Prenume:</label>
+                  <input type="text" class="form-control" placeholder="Ex: Ionescu Ion" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Adresa de email:</label>
+                  <input type="email" class="form-control" placeholder="Ex: ionescu.ion@email.com" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Telefon:</label>
+                  <input type="tel" class="form-control" placeholder="Ex: 0722 234 567" id="phone">
+                </div>
+                <div class="form-group">
+                  <label for="message">Mesajul tau:</label>
+                  <textarea type="text" class="form-control" id="message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Trimite</button>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </main>
+
+      <footer class="footer d-flex justify-content-center align-items-center">
+        <p class="text-center text-white">
+          IT School România © 2021. Toate drepturile rezervate.
+        </p>
+      </footer>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
